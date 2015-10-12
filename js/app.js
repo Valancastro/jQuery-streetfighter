@@ -25,7 +25,10 @@ $(document).ready(function () {
 	        $('.ryu-ready').show();
 	   
 	   })
-	    .keydown(function(event) {
+	    
+	 });
+
+$(document).keydown(function(event) {
 	      if (event.keycode == 88) {
 	        $('.ryu-ready').hide();
 	        $('.ryu-cool').show(); }
@@ -34,9 +37,6 @@ $(document).ready(function () {
 	         if (event.keycode == 88){
 	            $('.ryu-ready').show();
 	            $('.ryu-cool').hide(); }
-
-	 });
-
 
   
 });
