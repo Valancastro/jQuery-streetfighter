@@ -19,6 +19,7 @@ $(document).ready(function () {
 	                $(this).hide();
 	                $(this).css('left', '520px');
 	            });
+	        // need to figure out all this cury brace parenthesis going on Right here
 	    })
 	    .mouseup(function(){
 	        $('.ryu-throwing').hide();
