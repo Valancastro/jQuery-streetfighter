@@ -28,17 +28,16 @@ $(document).ready(function () {
 	    
 	 });
 
-$(document).keydown(function(event) {
-	      if (event.keycode == 88) {
+ $(document).keydown(function(event) {
+	      if (event.which == 88) {
 	        $('.ryu-ready').hide();
+	        $('.ryu-still').hide();
 	        $('.ryu-cool').show(); }
 
 	   }).keyup(function(event) {
-	         if (event.keycode == 88){
+	         if (event.which == 88){
 	            $('.ryu-ready').show();
 	            $('.ryu-cool').hide(); }
-
-  
 });
 
 
